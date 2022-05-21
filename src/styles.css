@@ -1,0 +1,42 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.actions {
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  grid-gap: 1em;
+}
+
+.coaster {
+  margin-bottom: 2em;
+}
+
+.seed-control {
+  margin-bottom: 1em;
+}
+
+.weight-controls {
+  max-width: 8cm;
+  margin: auto;
+  display: flex;
+  grid-gap: 1em;
+}
+
+.weight-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weight-control > input {
+  width: 3em;
+}
